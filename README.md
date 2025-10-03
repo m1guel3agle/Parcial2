@@ -5,6 +5,7 @@ Archivos:
  - cliente.c
 
 Compilación:
+ 
  gcc -o servidor servidor.c -Wall
  
  gcc -o cliente cliente.c -pthread -Wall
